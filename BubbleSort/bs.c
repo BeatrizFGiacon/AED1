@@ -18,6 +18,7 @@ void imprimirVetor(int *v, int n){
         printf("%d ", v[i]);
     }
     printf("\n");
+    printf("Fim do vetor\n");
 }
 
 int main(){
@@ -32,6 +33,8 @@ int main(){
 
     printf("Vetor ordenado: ");
     imprimirVetor(numeros, n);
+
+    printf("Fim do programa\n");
 
     return 0;
 }
